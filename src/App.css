@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer_div{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.right ul{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 10px;
+}
+.title_outer{
+  text-align: center;
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 10px;
+  padding: 30px ;
+  
+}
+
+.para{
+  width: 60%;
+  margin: auto;
+}
+.para button{
+  margin-top: 10px;
+}
+
+.grid_div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+.individual{
+  width: 80%;
+ 
+  margin: auto;
+  border: 1px solid rgb(134, 134, 134);
+}
+
+.after_image{
+  width: 90%;
+  justify-content: left;
+ padding-left: 10px;
+}
+.after_image button{
+  padding: 10px 15px;
+}
+
+.title_product{
+
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
